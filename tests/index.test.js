@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { init } = require('../src/server');
 const User  = require('../src/models/User').default;
-require('dotenv').config();
+require("dotenv").config()
 
 describe('User API', () => {
   let server;
