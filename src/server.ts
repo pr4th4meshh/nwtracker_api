@@ -5,8 +5,8 @@ import { authPlugin } from './plugins/authPlugin';
 import { rateLimitPlugin } from './plugins/rateLimitPlugin';
 import * as dotenv from 'dotenv';
 
+// test
 dotenv.config();
-
 // this init function that will be used in tests
 const init = async () => {
   const server = Hapi.server({
