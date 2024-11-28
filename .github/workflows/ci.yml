@@ -44,7 +44,7 @@ jobs:
           docker build -t ${{ secrets.DOCKER_USERNAME }}/networth-tracker:latest .
           docker push ${{ secrets.DOCKER_USERNAME }}/networth-tracker:latest
 
-  deploy:
+  # deploy:
     runs-on: ubuntu-latest
     needs: build
 
