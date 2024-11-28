@@ -5,7 +5,7 @@ import { authPlugin } from './plugins/authPlugin';
 import { rateLimitPlugin } from './plugins/rateLimitPlugin';
 import * as dotenv from 'dotenv';
 
-// test
+// changed name from DockerFile to Dockerfile
 dotenv.config();
 // this init function that will be used in tests
 const init = async () => {
